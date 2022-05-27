@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Day</title>
+</head>
+<body>
+    <div class="giua">
+        <h3 id="nt"></h3>
+    </div>
+    <script>
+        var today = new Date();
+        var day = today.getDay();
+        if(day == 0)
+        {
+            document.getElementById("nt").innerHTML = "Chủ Nhật";
+        }
+        else if(day == 1)
+        {
+            document.getElementById("nt").innerHTML = "Thứ Hai";
+        }
+        else if(day == 2)
+        {
+            document.getElementById("nt").innerHTML = "Thứ Ba";
+        }
+        else if(day == 3)
+        {
+            document.getElementById("nt").innerHTML = "Thứ Tư";
+        }
+        else if(day == 4)
+        {
+            document.getElementById("nt").innerHTML = "Thứ Năm";
+        }
+        else if(day == 5)
+        {
+            document.getElementById("nt").innerHTML = "Thứ Sáu";
+        }
+        else if(day == 6)
+        {
+            document.getElementById("nt").innerHTML = "Thứ Bảy";
+        }               
+    </script>   
+</body>
+</html>

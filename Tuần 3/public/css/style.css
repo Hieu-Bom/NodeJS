@@ -1,0 +1,15 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Roboto",sans-serif;
+}
+
+.giua {
+	margin: 10px auto;
+	width: 300px;
+	padding:10px;
+}
+.giua a{
+	width: 140px;
+	margin-right: 10px;
+}
